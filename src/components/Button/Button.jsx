@@ -5,7 +5,7 @@ import css from './Button.module.css';
 
 
 const Button = ({ onClick, children }) => (
-  <button onClick={onClick} className={css.Button} >{children}</button>
+  <button onClick={onClick} className={css.Button} type="button">{children}</button>
 );
 
 export default Button;
