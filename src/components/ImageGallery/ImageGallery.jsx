@@ -12,7 +12,6 @@ export default function ImageGallery({ imageName = "" }) {
     const [loading, setLoading] = useState(false);
     const [page, setPage] = useState(1);
     const [selectedImage, setSelectedImage] = useState(null);
-    const [loadingMore, setLoadingMore] = useState(false);
 
     useEffect(() => {
         const loadImages = async (searchTerm) => {
